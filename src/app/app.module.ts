@@ -15,6 +15,7 @@ import {UIComponent} from './components/ui/ui.component';
 import { CardsComponent } from './components/elements/cards/cards.component';
 import { InputsComponent } from './components/elements/inputs/inputs.component';
 import { GridComponent } from './components/grid/grid.component';
+import { FlexComponent } from './components/flex/flex.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { GridComponent } from './components/grid/grid.component';
     ToggleComponent,
     CardsComponent,
     InputsComponent,
-    GridComponent
+    GridComponent,
+    FlexComponent
   ],
   imports: [
     BrowserModule,
