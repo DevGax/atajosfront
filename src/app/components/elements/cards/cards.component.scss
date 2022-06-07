@@ -1,0 +1,236 @@
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 190px;
+    height: 254px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 0 auto;
+   }
+   
+   .card:hover {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+    background-color: #4bb8ff;
+   }
+   
+   .card .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+    transition: all 0.3s;
+   }
+   
+   .card:hover .blob {
+    height: 0;
+   }
+   
+   .card .img {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-color: #4bb8ff;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+   }
+   
+   .card:hover .img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    z-index: 99999;
+   }
+   
+   .card h2 {
+    padding: 15px 10px;
+    font-size: 25px;
+    transition: all 0.1s;
+    z-index: 1;
+    line-height: 17px;
+   }
+   
+   .card span {
+    font-size: 18px;
+   }
+   
+   .card:hover h2 {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s;
+   }
+   
+   .card>p {
+    opacity: 0;
+    transition: all 0.75s;
+   }
+   
+   .card>p>svg {
+    padding: 5px;
+   }
+   
+   .card:hover>p {
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+    opacity: 1;
+    transition: all 0.1s;
+   }
+
+
+   //SECOND
+   /* From uiverse.io by @alexruix */
+.card2 {
+    width: 190px;
+    height: 254px;
+    border-radius: 1em;
+    padding: 1.9rem;
+    background: #f5f5f5;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);
+   }
+   
+   .card2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 116, 116, 0.4);
+    z-index: 2;
+    transition: 0.5s;
+   }
+   
+   .card-info {
+    position: relative;
+    z-index: 3;
+    color: #f5f5f5;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 0.5s;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+   }
+   
+   .text-body {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 5px 0 15px 0;
+   }
+   
+   /*Button*/
+   .card-button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #ee9ca7;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease;
+   }
+   
+   /*Image*/
+   .card-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ee9ca7;
+    background: linear-gradient(to bottom, #e7aeae, #ee9ca7);
+   }
+   
+   /*Hover*/
+   .card2:hover {
+    transform: translateY(5%);
+   }
+   
+   .card2:hover:before {
+    opacity: 1;
+   }
+   
+   .card2:hover .card-info {
+    opacity: 1;
+    transform: translateY(0);
+   }
+   
+   .card-button:hover {
+    background: rgba(218, 77, 77, 0.4);
+    color: #f5f5f5;
+   }
+
+
+   //THIRD
+   /* From uiverse.io by @gagan-gv */
+.card3 {
+    width: 200px;
+    height: 250px;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: inherit;
+    z-index: 1;
+    margin: 0 auto;
+   }
+   
+   .img3 {
+    display: flex;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #152f50;
+   }
+   
+   .card3 p {
+    opacity: 0;
+    transition: all 0.5s;
+   }
+   
+   .card3 h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+   }
+   
+   .icon3 svg {
+    padding: 0 5px;
+    cursor: pointer;
+   }
+   
+   .card3:hover .img3 {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+   }
+   
+   .card3:hover h1,
+   .card3:hover p {
+    opacity: 1;
+   }
