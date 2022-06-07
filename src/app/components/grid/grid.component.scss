@@ -1,0 +1,40 @@
+.rojo{
+    width: auto;
+    height: 200px;
+    background-color: red;
+}
+
+.azul{
+    width: auto;
+    height: 200px;
+    background-color: blue;
+}
+
+.negro{
+    height: 200px;
+    background-color: black;
+}
+.amarillo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.naranja{
+    width: auto;
+    height: 200px;
+    background-color: orange;
+}
+.verde{
+    height: 200px;
+    background-color: green;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    max-height: 450px;
+}
+.padre{
+    display: grid;
+    grid-template-columns: 120px auto 120px;
+    grid-template-rows: 200px auto 200px;
+}
