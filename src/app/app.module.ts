@@ -14,6 +14,7 @@ import { ButtonsComponent } from './components/elements/buttons/buttons.componen
 import {UIComponent} from './components/ui/ui.component';
 import { CardsComponent } from './components/elements/cards/cards.component';
 import { InputsComponent } from './components/elements/inputs/inputs.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { InputsComponent } from './components/elements/inputs/inputs.component';
     CheckboxComponent,
     ToggleComponent,
     CardsComponent,
-    InputsComponent
+    InputsComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
